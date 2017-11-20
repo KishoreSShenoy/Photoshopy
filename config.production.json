@@ -4,14 +4,14 @@
     "port": 2368,
     "host": "127.0.0.1"
   },
-    mail: {
-            from: 'Admin <noreply@photoshopy.cf>',
-            transport: 'SMTP',
-            options: {
-                service: 'Mailgun',
-                auth: {
-                    user: 'photoshopy@kishores.cf', // mailgun username
-                    pass: 'sak626999'  // mailgun password
+    "mail": {
+            "from" : 'Admin <photoshopy@kishores.cf>',
+            "transport": 'SMTP',
+            "options": {
+                "service": 'Mailgun',
+                "auth": {
+                    "user": 'photoshopy@kishores.cf', // mailgun username
+                    "pass": 'sak626999'  // mailgun password
                 }
             }
     },
