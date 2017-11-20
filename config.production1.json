@@ -1,0 +1,37 @@
+{
+  "url": "https://www.photoshopy.cf",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+    mail: {
+            from: 'Admin <noreply@photoshopy.cf>',
+            transport: 'SMTP',
+            options: {
+                service: 'Mailgun',
+                auth: {
+                    user: 'photoshopy@kishores.cf', // mailgun username
+                    pass: 'sak626999'  // mailgun password
+                }
+            }
+    },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "content/data/ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "content"
+  }
+}
