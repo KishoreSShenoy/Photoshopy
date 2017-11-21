@@ -12,6 +12,7 @@ config = {
         url: 'https://www.photoshopy.cf',
         forceAdminSSL: true,
         mail: {
+            from: 'Noreply <noreply@photoshopy.cf>',
             transport: 'SMTP',
             options: {
                 service: 'Mailgun',
