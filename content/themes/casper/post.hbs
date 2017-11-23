@@ -26,13 +26,7 @@ into the {body} of the default.hbs template --}}
                 </section>
                 <h1 class="post-full-title">{{title}}</h1>
                 
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8476498852272473",
-    enable_page_level_ads: true
-  });
-</script>
+                {{> "ads"}}
             </header>
 
             {{#if feature_image}}
