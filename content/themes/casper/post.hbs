@@ -69,7 +69,14 @@ into the {body} of the default.hbs template --}}
 
                 {{/author}}
                 
-                {{>ads}}
+                {{#ads}}
+                <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8476498852272473",
+    enable_page_level_ads: true
+  });
+</script>
+                {{/ads}}
             </footer>
 
             {{!--
